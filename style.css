@@ -1,22 +1,20 @@
-body.home {
+body {
     background-color: #FFF0E3;
-    background: url("backgrounds/light/start.png");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
     min-height: 100vh;
     margin: 0;
+}
+
+body.home {
+    background: url("backgrounds/light/start.png");
 }
 
 body.reminisce {
-    background-color: #FFF0E3;
     background: url("backgrounds/light/reminisce.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    min-height: 100vh;
-    margin: 0;
 }
+
 /*0B1320*/
