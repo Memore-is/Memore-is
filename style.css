@@ -8,13 +8,47 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
-body.home {
-    background: url("backgrounds/light/start.png");
+/*
+@keyframes myAnimation {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
 }
-
+body.home {
+    background-color: red;
+    animation-name: change;
+    animation-duration: 60s;
+}
+*/
 body.reminisce {
     background: url("backgrounds/light/reminisce.png");
 }
 
 /*0B1320*/
+
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bar a {
+    text-decoration: none;
+
+    background: white;
+    color: black;
+
+    padding: 10px 18px;
+    border-radius: 12px;
+}
+
+#mode {
+    width: 40px;
+    cursor: pointer;
+}
