@@ -1,10 +1,11 @@
 html {
     min-height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 body {
-    background-color: #FFF0E3;
+    background-color: #fff0e3;
     position: relative;
     min-height: 100vh;
 }
@@ -23,35 +24,40 @@ body.home {
 
 .bar {
     display: flex;
-    align-items: center;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     position: fixed;
     top: 0;
     left: 0;
     gap: 20px;
+    background: #ffffff6d;
+    border-radius: 16px;
 }
 
 .right {
     margin-left: auto;
     display: flex;
     gap: 20px;
-    flex-wrap: nowrap;
-}
-
-.bar a {
-    white-space: nowrap;
 }
 
 a {
+    white-space: nowrap;
     text-decoration: none;          /*to remove underline*/
+    color: #370901;
+    padding: 5px 18px;
+    font-size: 1.5em;
+}
 
-    background: rgb(19, 0, 0);
-    color: rgb(255, 248, 248);
-
-    padding: 10px 18px;
+.button {
+    background: #370901;
+    color: #FFF0E3;
     border-radius: 16px;
+}
+
+.center-buttons {
+    display: flex;
+    gap: 20px;
 }
 
 #mode {
@@ -70,7 +76,7 @@ h1 {
     transform: translate(-50%, -80%);
 
     margin: 0 auto;
-    border-right: 2px solid rgba(55, 9, 1, 0.75);
+    border-right: 2px solid #370901;;
     white-space: nowrap;
     overflow: hidden;
 }
