@@ -7,11 +7,8 @@ I'm a 17-year-old stupid (rising) senior living in NYC.
 
 
 What I code: HTML, CSS, Java, Python, GDScript (Godot yes)
-
 Disgusted by: Java + Eclipse, JS 
-
 Absolutely adore: Python, Godot
-
 Wanna do: Hardware, Fullstack
 
 
