@@ -2,7 +2,6 @@
 
 
 Hi!! I'm Riri
-
 I'm a 17-year-old stupid (rising) senior living in NYC. 
 
 
@@ -20,10 +19,9 @@ Very evident in my coding stats as you can see...
 ************************************
 
 This is my very non-professional personal website built with HTML, CSS, and a lil bit of JS. The hardest part tbh was getting the typewriter animation in CSS/JS to work. Very cool whatsoever. Will have constant updates. 
-
 My first project with animation stuff!!! Improved CSS skills with the project and hopefully got out of my fear of divs. 
-
 Contains: stuff about me, photo gallery, links to my weblog, and contact links!
+
 
 
 Heatmap!
