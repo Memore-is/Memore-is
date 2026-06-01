@@ -1,7 +1,12 @@
 html {
     min-height: 100%;
-    margin: 0;
+    margin: 0px;
     overflow: hidden;
+}
+
+@font-face {
+    font-family: "Moontime";
+    src: url("backgrounds/Moontime-Font/MoonTime-Regular.otf") format("opentype");
 }
 
 body {
@@ -17,9 +22,11 @@ body.home {
     background-repeat: no-repeat;
 }
 
-@font-face {
-    font-family: "Moontime";
-    src: url("backgrounds/Moontime-Font/MoonTime-Regular.otf") format("opentype");
+body.contact {
+    background-image: url("backgrounds/light/home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bar {
@@ -43,7 +50,7 @@ body.home {
 
 a {
     white-space: nowrap;
-    text-decoration: none;          /*to remove underline*/
+    text-decoration: none;
     color: #370901;
     padding: 5px 18px;
     font-size: 1.5em;
@@ -58,6 +65,12 @@ a {
 .center-buttons {
     display: flex;
     gap: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    margin: 0 auto;
 }
 
 #mode {
@@ -74,27 +87,31 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
-
     margin: 0 auto;
-    border-right: 2px solid #370901;;
-    white-space: nowrap;
-    overflow: hidden;
+}
+
+#up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin: 0 auto;
 }
 
 .type {
-    display: inline-block;
-    width: 0;
-
-    animation:
-        typewriter 1s steps(10, end) 1s forwards,
-        blink 0.8s step-end infinite;
+    white-space: nowrap;
+    padding-right: 10px;
 }
 
-@keyframes typewriter {
-    from { width: 0ch; }
-    to { width: 5.5ch; }
+.type::before {
+    content: "│";
+    animation: blink 1s steps(2, start) 3;
 }
+
+
 
 @keyframes blink {
-    50% { border-color: transparent; }
+    50% {
+        opacity: 0;
+    }
 }
