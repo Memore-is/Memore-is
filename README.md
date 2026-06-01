@@ -26,11 +26,9 @@ Contains: stuff about me, photo gallery, links to my weblog, and contact links!
 
 
 
-Heatmap!
-
-<a href="https://heatmap.shymike.dev?id=19301&timezone=America%2FNew_York&cell_size=20&labels=true&standalone=true" title="Click to view detailed data for each day!">
+<a href="https://heatmap.shymike.dev?id=19301&timezone=America%2FNew_York&cell_size=100&labels=true&standalone=true" title="Click to view detailed data for each day!">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://heatmap.shymike.dev?id=19301&timezone=America%2FNew_York&cell_size=20&labels=true&theme=dark">
+        <source media="(prefers-color-scheme: dark)" srcset="https://heatmap.shymike.dev?id=19301&timezone=America%2FNew_York&cell_size=100&labels=true&theme=dark">
         <img alt="Hackatime activity heatmap" src="https://heatmap.shymike.dev?id=1&timezone=America%2FNew_York&cell_size=100&labels=true&theme=light">
     </picture>
 </a>
