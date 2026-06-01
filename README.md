@@ -7,11 +7,15 @@ I'm a 17-year-old stupid (rising) senior living in NYC.
 
 
 What I code: HTML, CSS, Java, Python, GDScript (Godot yes)
+
 Disgusted by: Java + Eclipse, JS 
+
 Absolutely adore: Python, Godot
+
 Wanna do: Hardware, Fullstack
 
-Very evident in my tracked coding stats as you can see...
+
+Very evident in my coding stats as you can see...
 
 ![Hackatime activity heatmap](https://github-readme-stats.hackclub.dev/api/wakatime?username=19301&api_domain=hackatime.hackclub.com&theme=github_dark&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8)
 
