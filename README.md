@@ -22,7 +22,7 @@ This is my very non-professional personal website built with HTML, CSS, and a li
 
 My first project with animation stuff!!! Improved CSS skills with the project and hopefully got out of my fear of divs. 
 
-Contains: stuff about me, photo gallery, links to my weblog, and contact links!
+Contains: stuff about me, photo gallery, links to my weblog, and contact links!!!
 
 
 
