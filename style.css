@@ -11,22 +11,12 @@ html {
 
 body {
     background-color: #fff0e3;
+    background-image: url("backgrounds/light/home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     min-height: 100vh;
-}
-
-body.home {
-    background-image: url("backgrounds/light/home.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-body.contact {
-    background-image: url("backgrounds/light/home.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .bar {
@@ -69,7 +59,15 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 200%);
+    transform: translate(-50%, 300%);
+    margin: 0 auto;
+}
+
+#up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -100%);
     margin: 0 auto;
 }
 
@@ -86,15 +84,7 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
-    margin: 0 auto;
-}
-
-#up {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-40%, -50%);
     margin: 0 auto;
 }
 
@@ -103,13 +93,29 @@ h1 {
     padding-right: 10px;
 }
 
-.type::before {
+.type::after {
     content: "│";
-    animation: blink 1s steps(2, start) 3;
+    animation: blink 1s steps(2, start) 2;
 }
 
 @keyframes blink {
     50% {
         opacity: 0;
     }
+}
+
+#textbox {
+    height: 70%;
+    width: 90%;
+    box-sizing: border-box;
+
+    margin: 5%;
+    padding: 4em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #370901;
+    color: #FFF0E3;
+    border-radius: 20px;
 }
