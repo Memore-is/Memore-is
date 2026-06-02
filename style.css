@@ -110,7 +110,9 @@ h1 {
 }
 
 #textbox {
-    height: 75%;
+    display: flex;
+    gap: 8em;
+    height: 80%;
     width: 95%;
     box-sizing: border-box;
 
@@ -120,9 +122,9 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
-    transform: translate(0%, 15%);
+    transform: translate(0%, 13%);
 
-    background: #370901;
+    background: #370901b3;
     border-radius: 20px;
 }
 
@@ -130,6 +132,18 @@ pre {
     color: #FFF0E3;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
+}
+
+p {
+    color: #370901;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 .pics {
@@ -143,5 +157,5 @@ pre {
     display: block;
     width: 100%;
     margin-bottom: 15px;
-    border-radius: 12px;
+    border-radius: 20px;
 }
